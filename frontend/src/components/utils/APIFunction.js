@@ -14,7 +14,6 @@ export const getHeader = () => {
 }
 
 
-// add new room to database
 export async function addRoom(photo, roomType, roomPrice) {
     const formData = new FormData()
     formData.append("photo", photo)
